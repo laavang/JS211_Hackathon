@@ -34,6 +34,7 @@ const letterCount = (sentence) => {
     ch = sentence.charAt(index);
 
     count = counts[ch];
+    // Ternary If 
     counts[ch] = count ? count + 1 : 1;
 
   }
