@@ -19,7 +19,7 @@ const translateBtnClick = () =>{
   event.preventDefault()
 }
 
-const pigLatin = (input) => {
+const string = (input) => {
 
 
   //Print the latin array as a string without ,'s
