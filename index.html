@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
+	<head>
+		<meta charset="utf-8" />
+		<title>Letter count</title>
+	</head>
+	<script src="main.js"></script>
+	<body style="background-color: linen; font-family: cursive">
+		<div
+			style="
+				width: 502px;
+				height: 315px;
+				margin: 10% auto;
+				background-color: lightblue;
+			"
+		>
+			<h1>Letter count</h1>
+			<hr />
+			<form action="">
+				<label>Enter the Text and CLICK Letter Count.</label>
+				<br />
 
-    <meta charset="utf-8">
-    <title>Letter count</title>
-  </head>
-  <script src="main.js"></script>
-  <body>
-    <h1>Letter count</h1>
-    <hr/>
-    <form action="">
-      <label>Enter the Text and CLICK Letter Count.</label>
-      <br>
-      
-      <textarea id="stringInput" name="latinInput" cols="60" rows="5"></textarea>
-      <br>
+				<textarea
+					id="stringInput"
+					name="latinInput"
+					cols="60"
+					rows="5"
+				></textarea>
+				<br />
 
-      <button id="countBtn" onclick="countBtnClick()">Count Letter</button>
-      <hr>
-      
-      <label>Here ya go!</label>
-      <br>
+				<button id="countBtn" onclick="countBtnClick()">Count Letter</button>
+				<hr />
 
-      <p id="letterCount">
+				<label>Here ya go!</label>
+				<br />
 
-      </p>
-      
-      <button id="clearBtn" onclick="clearTextAreas()">Clear</button>
-    </form>
-    <hr/>
-  </body>
+				<p id="letterCount"></p>
+
+				<button id="clearBtn" onclick="clearTextAreas()">Clear</button>
+			</form>
+			<hr />
+		</div>
+	</body>
 </html>
